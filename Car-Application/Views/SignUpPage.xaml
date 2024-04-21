@@ -1,0 +1,98 @@
+﻿<Page x:Class="Car_Application.Views.SignUpPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Car_Application.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SignUp">
+
+    <Grid>
+        <Grid Style="{StaticResource background}">
+            <Image Style="{StaticResource login_background}"/>
+        </Grid>
+
+        <Border Width="580"
+                Height="400"
+                Background="White"
+                CornerRadius="6"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15"
+                                  Direction="-90" 
+                                  RenderingBias="Quality" 
+                                  ShadowDepth="2" 
+                                  Color="Gray" />
+            </Border.Effect>
+            <StackPanel Orientation="Vertical" Margin="20">
+                <TextBlock Text="Sign Up" 
+                           FontSize="25"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"
+                           Padding="10"/>
+
+                <StackPanel Orientation="Horizontal" Margin="0,50,0,0" HorizontalAlignment="Center">
+                    <StackPanel Margin="0,15,20,10">
+                        <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                            <TextBlock Text="Name:" Margin="0,0,10,10"/>
+                            <TextBox x:Name="nametxtBox" BorderThickness="0,0,0,1" HorizontalAlignment="Left" Text="{Binding Name}" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                            <TextBlock Text="Surname:" Margin="0,0,10,10"/>
+                            <TextBox x:Name="surnametxtBox" BorderThickness="0,0,0,1" HorizontalAlignment="Left" Text="{Binding Surname}" Width="200"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Margin="110,15,0,10">
+                        <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                            <TextBlock Text="Username:" Margin="0,0,10,10"/>
+                            <TextBox x:Name="usernametxtBox" BorderThickness="0,0,0,1" HorizontalAlignment="Left" Text="{Binding Username}" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                            <TextBlock Text="Password:" Margin="0,0,10,10"/>
+                            <TextBox  x:Name="passwordTxtBox" BorderThickness="0,0,0,1" HorizontalAlignment="Left" Text="{Binding Password}" Width="200"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+
+                <Button x:Name="SignUpButton"
+                        Command="{Binding SignUpCommand}"
+                        Content="Sign Up" 
+                        Foreground="White"
+                        Background="Black"
+                        VerticalAlignment="Bottom"
+                        Margin="0,60,0,50"
+                        Height="35"
+                        Cursor="Hand"
+                        Width="250">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border x:Name="SignUpBorder" Background="{TemplateBinding Background}"
+                                                CornerRadius="16">
+                                            <ContentPresenter HorizontalAlignment="Center" 
+                                                              VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="AliceBlue" TargetName="SignUpBorder"  />
+                                                <Setter Property="TextBlock.Foreground" Value="Black"  TargetName="SignUpBorder" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+            </StackPanel>
+
+        </Border>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>
