@@ -10,7 +10,8 @@
         <Setter Property="Source" Value="/Static Files/Images/background-login.jpg"/>
         <Setter Property="Opacity" Value="0.2"/>
     </Style>
-        
-        
+
+    
+      
      
 </ResourceDictionary>

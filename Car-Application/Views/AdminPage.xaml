@@ -9,8 +9,37 @@
       Title="AdminPage">
 
     <Grid Background="#fff">
-        <ListView>
-            
-        </ListView>
+        <Grid Style="{StaticResource background}">
+            <Image Style="{StaticResource userlogin_background}"></Image>
+        </Grid>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Border Margin="0,0,50,0" Cursor="Hand" Style="{StaticResource button-border}">
+                <Grid>
+                    <Button Style="{StaticResource button-car}">
+                        <Image Style="{StaticResource icon-car}"/>
+                    </Button>
+                    <TextBlock Foreground="#fff" Margin="0,100,0,0" Text="Add Car" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Grid>
+            </Border>
+
+            <Border Cursor="Hand" Style="{StaticResource button-border}">
+                <Grid>
+                    <Button Style="{StaticResource button-car}">
+                        <Image Style="{StaticResource icon-cars}"></Image>
+                    </Button>
+                    <TextBlock Foreground="#fff" Margin="0,100,0,0 " Text="Display Cars" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Grid>
+            </Border>
+
+            <Border Margin="50,0,0,0" Cursor="Hand" Style="{StaticResource button-border}">
+                <Grid>
+                    <Button Style="{StaticResource button-car}">
+                        <Image Style="{StaticResource bin-cars}"></Image>
+                    </Button>
+                    <TextBlock Foreground="#fff" Margin="0,100,0,0" Text="Remove Cars" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Grid>
+            </Border>
+        </StackPanel>
     </Grid>
 </Page>

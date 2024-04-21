@@ -7,6 +7,8 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Resource Dictionaries/LoginPageRD.xaml"/>
+                <ResourceDictionary Source="/Resource Dictionaries/UserPageRD.xaml"/>
+                <ResourceDictionary Source="/Resource Dictionaries/AdminPageRD.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

@@ -79,3 +79,7 @@ C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Car-Application.pdb
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Car-Application.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\ref\Car-Application.dll
+C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Car-Application.sourcelink.json
+C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Resource Dictionaries\UserPageRD.baml
+C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\bin\Debug\net8.0-windows\FontAwesome.WPF.dll
+C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Resource Dictionaries\AdminPageRD.baml

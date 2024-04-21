@@ -128,3 +128,4 @@ C:\Users\ASUS\source\repos\DataBase-Car\DataBase-Car\obj\Debug\net8.0\refint\Dat
 C:\Users\ASUS\source\repos\DataBase-Car\DataBase-Car\obj\Debug\net8.0\DataBase-Car.pdb
 C:\Users\ASUS\source\repos\DataBase-Car\DataBase-Car\obj\Debug\net8.0\DataBase-Car.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\DataBase-Car\DataBase-Car\obj\Debug\net8.0\ref\DataBase-Car.dll
+C:\Users\ASUS\source\repos\DataBase-Car\DataBase-Car\obj\Debug\net8.0\DataBase-Car.sourcelink.json

@@ -7,7 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Resource Dictionaries\AdminPageRD.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Resource Dictionaries\LoginPageRD.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resource Dictionaries\UserPageRD.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AdminPage.xaml">
