@@ -16,7 +16,7 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <Border Margin="0,0,50,0" Cursor="Hand" Style="{StaticResource button-border}">
                 <Grid>
-                    <Button Style="{StaticResource button-car}">
+                    <Button Command="{Binding AddCarCommand}" Style="{StaticResource button-car}">
                         <Image Style="{StaticResource icon-car}"/>
                     </Button>
                     <TextBlock Foreground="#fff" Margin="0,100,0,0" Text="Add Car" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -41,5 +41,6 @@
                 </Grid>
             </Border>
         </StackPanel>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

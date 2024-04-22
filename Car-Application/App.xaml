@@ -9,6 +9,8 @@
                 <ResourceDictionary Source="/Resource Dictionaries/LoginPageRD.xaml"/>
                 <ResourceDictionary Source="/Resource Dictionaries/UserPageRD.xaml"/>
                 <ResourceDictionary Source="/Resource Dictionaries/AdminPageRD.xaml"/>
+                <ResourceDictionary Source="/Resource Dictionaries/AddCarPageRD.xaml"/>
+                <ResourceDictionary Source="/Resource Dictionaries/ShowCarsPageRD.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

@@ -25,5 +25,6 @@ namespace Car_Application.Views
             InitializeComponent();
             DataContext = new LoginViewModel(MainFrame);
         }
+       
     }
 }

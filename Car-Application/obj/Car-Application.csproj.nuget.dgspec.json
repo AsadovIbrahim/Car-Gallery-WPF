@@ -52,6 +52,14 @@
             "FontAwesome.WPF": {
               "target": "Package",
               "version": "[4.7.0.9, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

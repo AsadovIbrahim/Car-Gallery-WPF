@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\App.xaml
-7-1547453390
+11-1538329359
 
-191372927886
-240-697016261
-Resource Dictionaries\AdminPageRD.xaml;Resource Dictionaries\LoginPageRD.xaml;Resource Dictionaries\UserPageRD.xaml;Views\AdminPage.xaml;Views\LoginPage.xaml;Views\SignUpPage.xaml;Views\UserPage.xaml;
+23-1788496504
+243-1539296102
+Resource Dictionaries\AddCarPageRD.xaml;Resource Dictionaries\AdminPageRD.xaml;Resource Dictionaries\LoginPageRD.xaml;Resource Dictionaries\ShowCarsPageRD.xaml;Resource Dictionaries\UserPageRD.xaml;Views\AddCarPage.xaml;Views\AdminPage.xaml;Views\LoginPage.xaml;Views\ShowCarsPage.xaml;Views\SignUpPage.xaml;Views\UserPage.xaml;
 
-True
+False
 

@@ -23,7 +23,7 @@ namespace Car_Application.Views
         public AdminPage()
         {
             InitializeComponent();
-            DataContext = new AdminViewModel();
+            DataContext = new AdminViewModel(MainFrame);
         }
     }
 }
