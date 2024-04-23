@@ -84,11 +84,11 @@ C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\bin\Debug\net8.0-windows\FontAwesome.WPF.dll
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Resource Dictionaries\AdminPageRD.baml
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Resource Dictionaries\AddCarPageRD.baml
-C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Resource Dictionaries\ShowCarsPageRD.baml
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Views\AddCarPage.g.cs
-C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Views\ShowCarsPage.g.cs
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Views\AddCarPage.baml
-C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Views\ShowCarsPage.baml
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\bin\Debug\net8.0-windows\MaterialDesignColors.dll
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
 C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Resource Dictionaries\DisplayCarsPageRD.baml
+C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Views\DisplayCarsPage.g.cs
+C:\Users\ASUS\source\repos\DataBase-Car\Car-Application\obj\Debug\net8.0-windows\Views\DisplayCarsPage.baml

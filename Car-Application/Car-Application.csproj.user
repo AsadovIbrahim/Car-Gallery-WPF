@@ -10,7 +10,7 @@
     <Compile Update="Views\AddCarPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\ShowCarsPage.xaml.cs">
+    <Compile Update="Views\DisplayCarsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -21,10 +21,10 @@
     <Page Update="Resource Dictionaries\AdminPageRD.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Resource Dictionaries\LoginPageRD.xaml">
+    <Page Update="Resource Dictionaries\DisplayCarsPageRD.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Resource Dictionaries\ShowCarsPageRD.xaml">
+    <Page Update="Resource Dictionaries\LoginPageRD.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Resource Dictionaries\UserPageRD.xaml">
@@ -36,10 +36,10 @@
     <Page Update="Views\AdminPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\LoginPage.xaml">
+    <Page Update="Views\DisplayCarsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\ShowCarsPage.xaml">
+    <Page Update="Views\LoginPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\SignUpPage.xaml">

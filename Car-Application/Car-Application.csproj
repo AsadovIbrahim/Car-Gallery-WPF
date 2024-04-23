@@ -15,6 +15,7 @@
     <None Remove="Static Files\Icons\cars-icon.png" />
     <None Remove="Static Files\Images\add-car-background.png" />
     <None Remove="Static Files\Images\background-login.jpg" />
+    <None Remove="Static Files\Images\display-cars-background.png" />
     <None Remove="Static Files\Images\userpage-background.png" />
   </ItemGroup>
 
@@ -34,6 +35,7 @@
     <Resource Include="Static Files\Icons\cars-icon.png" />
     <Resource Include="Static Files\Images\add-car-background.png" />
     <Resource Include="Static Files\Images\background-login.jpg" />
+    <Resource Include="Static Files\Images\display-cars-background.png" />
     <Resource Include="Static Files\Images\userpage-background.png" />
   </ItemGroup>
 

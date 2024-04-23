@@ -9,6 +9,6 @@ namespace CarDB.Entities
         public string ?Username { get; set; }
         public string ?Password { get; set; }
 
-        public ICollection<Car> ?Cars { get; set; }
+        public ICollection<Car>? Cars { get; set; }
     }
 }

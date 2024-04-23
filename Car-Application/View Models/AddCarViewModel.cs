@@ -27,22 +27,30 @@ namespace Car_Application.View_Models
 
         public void AddButton(object? param)
         {
-            if (!string.IsNullOrEmpty(Brand) && !string.IsNullOrEmpty(Model)
-                && !string.IsNullOrEmpty(Year) && !string.IsNullOrEmpty(ImagePath))
+            if (!string.IsNullOrEmpty(Brand) && !string.IsNullOrEmpty(Model) && !string.IsNullOrEmpty(Year) && !string.IsNullOrEmpty(ImagePath))
             {
-
-                Car.Brand = Brand;
-                Car.Model = Model;
-                Car.Year = Year;
-                Car.ImagePath = ImagePath;
-
+                int userId = 1;
                 using (var context = new CarDBContext())
                 {
-                    context.Add(Car);
-                    context.SaveChanges();
-                    MessageBox.Show("Car Added Succesfully!");
-                }
+                    var user = context.Users!.FirstOrDefault(u => u.Id == userId);
+                    if (user != null)
+                    {
+                        Car = new Car();
+                        Car.Brand = Brand;
+                        Car.Model = Model;
+                        Car.Year = Year;
+                        Car.ImagePath = ImagePath;
+                        Car.UserId = userId;
 
+                        context.Cars!.Add(Car);
+                        context.SaveChanges();
+                        MessageBox.Show("Car Added Successfully!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("User not found!");
+                    }
+                }
             }
 
             _frame.Navigate(new AdminPage());

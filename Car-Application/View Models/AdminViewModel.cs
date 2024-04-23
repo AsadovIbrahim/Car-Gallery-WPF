@@ -14,15 +14,21 @@ namespace Car_Application.View_Models
         
 
         public RelayCommand ?AddCarCommand { get; set; }
+        public RelayCommand ?DisplayCarsCommand { get; set; }
         private readonly Frame _frame;
         
         public void AddCar(object? param)
         {
             _frame.Navigate(new AddCarPage());
         }
+        public void DisplayCars(object? param)
+        {
+            _frame.Navigate(new DisplayCarsPage());
+        }
         public AdminViewModel(Frame navigationFrame)
         {
             AddCarCommand=new RelayCommand(AddCar);
+            DisplayCarsCommand = new RelayCommand(DisplayCars);
             _frame = navigationFrame;
         }
     }

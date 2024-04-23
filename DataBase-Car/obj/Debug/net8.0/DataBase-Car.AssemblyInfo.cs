@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataBase-Car")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b2ab6877718dac27db25ec87ce99b285ab556d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2134d922fe490cca1af457cef5e08af251e400ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataBase-Car")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataBase-Car")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

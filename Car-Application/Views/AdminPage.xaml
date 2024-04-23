@@ -25,7 +25,7 @@
 
             <Border Cursor="Hand" Style="{StaticResource button-border}">
                 <Grid>
-                    <Button Style="{StaticResource button-car}">
+                    <Button Command="{Binding DisplayCarsCommand}" Style="{StaticResource button-car}">
                         <Image Style="{StaticResource icon-cars}"></Image>
                     </Button>
                     <TextBlock Foreground="#fff" Margin="0,100,0,0 " Text="Display Cars" HorizontalAlignment="Center" VerticalAlignment="Center"/>
