@@ -15,21 +15,21 @@
 
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Margin="0,0,0,10" Text="Brand" Foreground="#fff"/>
-            <TextBox Foreground="#fff" Width="150" BorderThickness="0,0,0,1" Background="Transparent"/>
+            <TextBox Text="{Binding Brand}" Foreground="#fff" Width="150" BorderThickness="0,0,0,1" Background="Transparent"/>
 
 
             <TextBlock Margin="0,40,0,10" Text="Model" Foreground="#fff"/>
-            <TextBox Foreground="#fff" Width="150" BorderThickness="0,0,0,1" Background="Transparent"/>
+            <TextBox Text="{Binding Model}" Foreground="#fff" Width="150" BorderThickness="0,0,0,1" Background="Transparent"/>
 
             <TextBlock Margin="0,40,0,10" Text="Year" Foreground="#fff"/>
-            <TextBox Foreground="#fff" Width="150" BorderThickness="0,0,0,1" Background="Transparent"/>
+            <TextBox Text="{Binding Year}" Foreground="#fff" Width="150" BorderThickness="0,0,0,1" Background="Transparent"/>
 
             <TextBlock Margin="0,40,0,10" Text="Image Path" Foreground="#fff"/>
-            <TextBox Foreground="#fff" Width="150" BorderThickness="0,0,0,1" Background="Transparent"/>
+            <TextBox Text="{Binding ImagePath}" Foreground="#fff" Width="150" BorderThickness="0,0,0,1" Background="Transparent"/>
 
 
             <Button x:Name="addBtn"
-    Command="{Binding LoginCommand}"
+    Command="{Binding AddCarButtonCommand}"
     Content="Add Car" 
     Foreground="White"
     Background="Orange"
@@ -61,5 +61,6 @@
             </Button>
 
         </StackPanel>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

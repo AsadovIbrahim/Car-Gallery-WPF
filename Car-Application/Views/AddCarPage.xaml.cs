@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Car_Application.View_Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,14 +16,13 @@ using System.Windows.Shapes;
 
 namespace Car_Application.Views
 {
-    /// <summary>
-    /// Interaction logic for AddCarPage.xaml
-    /// </summary>
+   
     public partial class AddCarPage : Page
     {
         public AddCarPage()
         {
             InitializeComponent();
+            DataContext = new AddCarViewModel(MainFrame);
         }
     }
 }

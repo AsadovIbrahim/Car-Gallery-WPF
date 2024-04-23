@@ -11,6 +11,8 @@ namespace Car_Application.View_Models
 {
     public class AdminViewModel
     {
+        
+
         public RelayCommand ?AddCarCommand { get; set; }
         private readonly Frame _frame;
         
